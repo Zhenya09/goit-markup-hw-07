@@ -1,17 +1,16 @@
 .current {
     position: relative;
     bottom: 0;
-}
-
-.current::after {
-    position: absolute;
-    bottom: -32px;
-    content: '';
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: #2196F3;
-    border-radius: 2px;
+    &::after {
+            position: absolute;
+            bottom: -32px;
+            content: '';
+            display: block;
+            width: 100%;
+            height: 4px;
+            background-color: #2196F3;
+            border-radius: 2px;
+        }
 }
 
 .header {
@@ -120,8 +119,6 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header-item {}
 
 .header-list-item {
     display: flex;
