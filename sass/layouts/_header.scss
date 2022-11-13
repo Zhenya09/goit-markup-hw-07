@@ -32,7 +32,7 @@
     align-items: center;
 }
 
-.header-container {
+.menu{
     display: flex;
     align-items: center;
 }
@@ -72,7 +72,7 @@
     color: #2196F3;
 }
 
-.header-link {
+.menu__link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -84,7 +84,7 @@
 }
 
 
-.header-mail {
+.header-contact__mail {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -97,17 +97,12 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-mail-item {
+.header-contact__icon {
     fill: currentColor;
     margin-right: 10px;
 }
 
-.header-tel-item {
-    fill: currentColor;
-    margin-right: 10px;
-}
-
-.header-tel {
+.header-contact__tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -120,7 +115,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-list-item {
+.header-contact {
     display: flex;
     align-items: center;
 }
